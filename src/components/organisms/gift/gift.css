@@ -1,0 +1,137 @@
+.gift{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #d6bb9f;
+    color: white;
+    /* background-image: linear-gradient(rgba(172, 166, 166, 0.4),
+    rgba(202, 194, 194, 0.6)),url('../../../assets/gambar/flower-bg.png'); */
+    background-attachment: fixed;
+    
+    
+}
+
+/* .active{
+    filter: blur(2px);
+} */
+
+.gift-judul{
+    font-family: 'Rouge Script', cursive;
+    font-size: 80px;
+    font-weight:normal;
+}
+
+.gift .desc{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.gift .kartu-rekening{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    justify-content:space-evenly;
+}
+
+.konfirmasi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.konfirm-hadiah{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.desc-konfirm{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight:400;
+    font-size: 14px;
+    margin-top: -10px;
+    text-align: center;
+    font-style: italic;
+}
+
+/* input */
+.gift .form-label{
+    font-size: 16px;
+    font-style: italic;
+}
+
+.gift .form-check-label{
+    font-style: italic;
+}
+
+.gift form{
+    width: 600px;
+}
+.form-label span{
+    color: red;
+}
+
+.gift .btn-kirim{
+    width: 600px;
+    border-radius: 15px;
+}
+
+.gift .btn-kirim:hover{
+    background-color: rgb(42, 122, 26);
+}
+
+@media(max-width:480px){
+    .gift-judul{
+    font-size: 60px;
+    }
+
+    .gift .desc{
+        font-size: 20px;
+        width: 90%;
+    }
+    .konfirm-hadiah{
+        font-size: 25px;
+    }
+    .desc-konfirm{
+        font-size: 12px;
+    }
+    .konfirmasi{
+        width: 90%;
+    }
+
+    .gift form{
+        width: 400px;
+        padding: 10px;
+    }
+
+    .gift .btn-kirim{
+        width: 380px;
+        padding: 10px;
+    }
+
+    .col{
+        width: 80%;
+        margin-left: 25px;
+    }
+
+    .col .btn-kirim{
+        width: 99%;
+        
+    }
+
+}
+
+@media(max-width:370px){
+    .col{
+        width: 75%;
+        margin-left: 40px;
+    }
+}

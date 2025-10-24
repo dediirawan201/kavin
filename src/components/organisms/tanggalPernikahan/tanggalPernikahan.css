@@ -1,0 +1,151 @@
+/* section tanggal pernikahan  */
+.section-tanggal{
+    height: 700px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d6bb9f;
+}
+
+.title-tanggal{
+    font-size: 36px;
+    margin-top: 60px;
+}
+
+.section-tanggal .desc{
+    width: 600px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.section-tanggal .desc .nama{
+    font-family: 'Rouge Script', cursive;
+    font-size: 36px;
+    margin-bottom: -20px;
+    margin-bottom: 0;
+}
+
+
+.section-tanggal .desc-2{
+    font-size: 40px;
+    font-family: 'Rouge Script', cursive;
+}
+
+.mempelai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.laki{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.laki .foto-laki{
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 100px;
+    background-image: url('../../../assets/gambar/kavinn.jpg');
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: 80% 42%;
+
+}
+
+.laki .desc{
+    text-align: center;
+}
+
+.pr{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pr .foto-pr{
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 100px;
+    background-image: url('../../../assets/gambar/pr.jpeg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: 80% 42%;
+}
+
+.pr .desc{
+    text-align: center;
+}
+
+.section-tanggal .mempelai .laki img{
+    display: none;
+}
+
+.section-tanggal .mempelai .pr img{
+    display: none;
+}
+
+@media(max-width:480px){
+    .section-tanggal{
+        height: 800px;
+    }
+    .title-tanggal{
+        font-size: 30px;
+        text-align:justify;
+    }
+
+    .section-tanggal .desc{
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .laki{
+        width: 250px;
+    }
+
+    .pr{
+        width: 250px;
+    }
+
+    .mempelai{
+        flex-direction: column;
+    }
+
+    .laki .foto-laki{
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .pr .foto-pr{
+        width: 200px;
+        height: 200px;
+    }
+
+    .mempelai img{
+        position:relative;
+    }
+    .section-tanggal .desc .nama{
+        font-size: 33px;
+
+    }
+
+    .section-tanggal .desc .nama {
+        font-weight: bold;
+    }
+
+}

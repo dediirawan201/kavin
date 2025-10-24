@@ -1,0 +1,39 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+.kartu{
+    width: 100px;
+    position: relative;
+    height: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(166, 206, 226);
+    margin: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 2px 5px 15px 5px;
+    
+}
+/* .active{
+    filter: blur(2px);
+} */
+
+
+.kartu:hover{
+    background-color: aquamarine;
+    transition: 1s;
+    color: rgb(93, 109, 109);
+}
+
+
+
+
+
+@media(max-width:370px){
+    .kartu{
+        width: 130px;
+    }
+}

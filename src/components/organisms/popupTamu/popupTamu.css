@@ -1,0 +1,104 @@
+
+.thumb{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+rgba(0, 0, 0, 0.6)), url("../../../assets/gambar/kavin.jpg");
+background-size: contain;
+
+width: 100%;
+    min-height: 100%;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 1s ease-in-out;
+    color: white;
+    z-index: 999;
+    position:fixed;
+    /* top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+}
+
+
+
+
+.thumb .undang{
+    margin-top: -20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    
+}
+
+.thumb .pengantin{
+    font-family: 'Rouge Script', cursive;
+    font-size: 60px;
+    font-weight:normal;
+    margin-top: -20px;
+}
+
+.thumb .tanggal{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.tamu{
+    text-align: center;
+    background-color: #ffffff1c;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tamu #nama-tamu{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.thumb .button {
+    width: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 100px;
+    border: none;
+}
+
+.thumb .button:hover{
+    background-color: skyblue;
+    color: white;
+}
+
+@media(max-width:480px){
+    .thumb{
+         display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: all 1s ease-in-out;
+        color: white;
+        z-index: 999;
+        position:fixed;
+    }
+    .thumb .pengantin{
+        font-size: 50px;
+
+    }
+
+    .thumb .undang{
+        font-size: 20px;
+    }
+
+    .thumb .tanggal{
+        font-size: 20px;
+    }
+
+}
