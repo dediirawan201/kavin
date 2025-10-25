@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Bca from '../../../assets/gambar/bca.png'
 import './alamat.css'; 
 
 export const Alamat = ({setModal,modal}) => {

@@ -1,5 +1,3 @@
-import React from 'react'
-import { Rose } from '../../../assets/gambar';
 import './detailAcara.css'
 
 const DetailAcara = ({id}) => {

@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Bri, Mandiri } from '../../../assets/gambar';
-import Bca from '../../../assets/gambar/bca.png'
 import './nomerRekening.css'; 
 
 const ModalCard = ({rekening,nama,logoBank}) => {

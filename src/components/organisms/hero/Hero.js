@@ -1,4 +1,3 @@
-import React from 'react'
 import {BungaKecil, Frame2} from '../../../assets/gambar'
 import Coutdown from '../../molecules/coutdown/Coutdown';
 import './hero.css';

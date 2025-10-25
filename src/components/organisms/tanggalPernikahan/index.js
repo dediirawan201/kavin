@@ -1,5 +1,5 @@
 import React from 'react'
-import { Bunga,Kavin,Wanita} from '../../../assets/gambar';
+import {Kavin} from '../../../assets/gambar';
 
 import './tanggalPernikahan.css';
 

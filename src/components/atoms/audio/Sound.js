@@ -1,6 +1,6 @@
 import Rose from '../../../assets/gambar/piringan.png'
 import './sound.css'
-const Sound = ({play,audioRef,isPlaying}) => {
+const Sound = ({play,isPlaying}) => {
     const clickPlay = () => {
       play()
 
